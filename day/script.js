@@ -21,7 +21,6 @@ var x = setInterval(function() {
   if(String(seconds).length <= 1){seconds = `0${seconds}`}
 
   // Display the result in the element with id="demo"
-  document.getElementById("days").innerHTML = days;
   document.getElementById("hours").innerHTML = hours;
   document.getElementById("minutes").innerHTML = minutes;
   document.getElementById("seconds").innerHTML = seconds;
